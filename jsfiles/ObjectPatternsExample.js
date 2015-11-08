@@ -2,8 +2,8 @@
  * Created by kumarp9 on 20/09/15.
  */
 
-/**Module Pattern is an object-creation pattern designed to create single- ton objects with private data. The basic approach
- is to use an immediately invoked function expression (IIFE) that returns an object. An IIFE is a func- tion expression
+/**Module Pattern is an object-creation pattern designed to create singleton objects with private data. The basic approach
+ is to use an immediately invoked function expression (IIFE) that returns an object. An IIFE is a function expression
  that is defined and then called immediately to produce a result.
  */
 var book = (function () {

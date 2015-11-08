@@ -47,7 +47,7 @@ var add = function(num1, num2) {
 /**
  *  You can pass a function into another function as an argument. The sort() method on JavaScript arrays accepts a comparison
  *  function as an optional parameter. The comparison function is called whenever two values in the array must be compared.
- *  If the first value is smaller than the second, the comparison function must return a nega- tive number. If the first value
+ *  If the first value is smaller than the second, the comparison function must return a negative number. If the first value
  *  is larger than the second, the function must return a positive number. If the two values are equal, the function should
  *  return zero.By default, sort() converts every item in an array to a string and then performs a comparison. That means
  *  you can’t accurately sort an array of numbers without specifying a comparison function.

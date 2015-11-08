@@ -18,14 +18,14 @@ var person1 = new Person();//we can leave the paranthesis if constructor functio
 function Student(name, rollno) {// we dont need to explicitly return obj from the constructor function. The new operator automatically
     // creates an object of the given type and returns it to the reference variable.
 
-    this.name = name;//The this object is automatically created by new when you call the constructor, and it is an instance
+    this.name = name;//This object is automatically created by new when you call the constructor, and it is an instance
                      // of the constructor’s type. (In this case, this is an instance of Student.)
     this.rollNo = rollno;
 }
 
 var student1 = new Student("Piyush", 12);
-//Every object instance is automatically created with a constructor prop- erty that contains a reference to the constructor
-// function that created it. For generic objects (those created via an object literal or the Object con- structor), constructor
+//Every object instance is automatically created with a constructor property that contains a reference to the constructor
+// function that created it. For generic objects (those created via an object literal or the Object constructor), constructor
 // is set to Object; for objects created with a custom constructor, constructor points back to that constructor function instead.
 console.log(student1.constructor === Student);
 
